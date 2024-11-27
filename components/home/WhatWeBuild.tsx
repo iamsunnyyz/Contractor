@@ -198,12 +198,12 @@ const WhatWeBuild = () => {
                   </div>
 
                   <div className="bg-white p-4">
-                    <h3 className="text-lg font-semibold text-grey-800">
+                    <h3 className="text-lg font-semibold text-black">
                       {expandedIndex === index
                         ? projects[index].name
                         : `${projects[index].name.substring(0, 50)}...`}
                       <button
-                        className="text-black ml-2 underline"
+                        className="text-gray-800 ml-2 underline"
                         onClick={() => toggleExpand(index)}
                       >
                         {expandedIndex === index ? "less" : "more"}

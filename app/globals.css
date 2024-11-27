@@ -36,3 +36,14 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+/* Force Light Mode Styles */
+.light {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+}
+
+.light .stats-block {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}

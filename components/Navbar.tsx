@@ -49,9 +49,7 @@ export default function Navbar() {
             width={100}
             height={200}
           />
-          <span className="text-white text-xl md:text-2xl font-semibold">
-            MITHLESH MISHRA
-          </span>
+          
         </div>
 
         {/* Menu for large screens */}
@@ -97,7 +95,7 @@ export default function Navbar() {
         <div
           className={`${
             isOpen ? "block" : "hidden"
-          } absolute top-16 left-0 w-full bg-black bg-opacity-90 z-20 md:hidden`}
+          } absolute top-16 left-0 w-full bg-black bg-opacity-80 z-20 md:hidden`}
         >
           <ul className="flex flex-col space-y-4 text-white text-center p-4">
             {[

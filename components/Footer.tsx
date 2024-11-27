@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
         <a href="#terms" className="hover:underline text-sm md:text-base">
           Terms & Conditions
         </a>
-        <p className="text-sm md:text-base">2024 ConstructionCorp. All Rights Reserved.</p>
+        <p className="text-sm md:text-base">2024. All Rights Reserved.</p>
         <p className="text-sm md:text-base">Website by Imsunnyyz</p>
       </div>
     </footer>

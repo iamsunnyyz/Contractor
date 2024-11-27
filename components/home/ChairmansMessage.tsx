@@ -33,23 +33,20 @@ const ChairmansMessage: React.FC = () => {
         </div>
 
         {/* Right Columns - Message */}
-        <div className="w-full md:w-2/3 text-black">
-          <h3 className="text-4xl font-bold text-[#D73200] mb-6">Chairman’s Message</h3>
-          <hr className="my-4 border-t border-green-600 w-96" />
-          <p className="text-lg font-semibold leading-relaxed mb-8">
-            &quot;At our core, we believe in the transformative power of vision,
-            hard work, and perseverance. Every brick laid, every milestone
-            achieved, and every life touched is a testament to the unwavering
-            dedication and commitment of our team. Together, we are building a
-            legacy of excellence that will stand the test of time.&quot;
+        <div className="w-full md:w-2/3 text-black px-4 md:px-0">
+          <h3 className="text-2xl md:text-4xl font-bold text-[#D73200] mb-4 md:mb-6">
+          Chairman’s Message
+          </h3>
+          <hr className="my-4 border-t border-green-600 w-2/3 md:w-96" />
+          <p className="text-base md:text-lg font-semibold leading-relaxed mb-6 md:mb-8">
+          &quot;At our core, we believe in the transformative power of vision, hard work, and perseverance. Every brick laid, every milestone achieved, and every life touched is a testament to the unwavering dedication and commitment of our team. Together, we are building a legacy of excellence that will stand the test of time.&quot;
           </p>
-          <p className="text-lg font-semibold leading-relaxed mb-8">
-            As we move forward, our focus remains steadfast: delivering
-            unparalleled quality and innovation, while staying true to our core
-            values. To our clients, partners, and employees, I extend my
-            heartfelt gratitude for being an integral part of this journey.
+          <p className="text-base md:text-lg font-semibold leading-relaxed mb-6 md:mb-8">
+          As we move forward, our focus remains steadfast: delivering unparalleled quality and innovation, while staying true to our core values. To our clients, partners, and employees, I extend my heartfelt gratitude for being an integral part of this journey.
           </p>
-          <p className="text-3xl font-semibold text-[#003366] mt-8">- <strong>MITHLESH MISHRA</strong></p>
+          <p className="text-xl md:text-3xl font-semibold text-[#003366] mt-6 md:mt-8">
+          - <strong>MITHLESH MISHRA</strong>
+          </p>
         </div>
       </div>
     </section>
