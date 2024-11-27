@@ -8,7 +8,7 @@ const ContactSection: React.FC = () => {
       <div className="flex justify-between items-center">
         
       <div className="flex items-center space-x-4">
-        <Image src="/brand.png" alt="Company Logo" className="h-12 w-auto" width={100} height={150}/>
+        <Image src="/Brand.png" alt="Company Logo" className="h-12 w-auto" width={100} height={150}/>
         <span className="text-white text-3xl font-semibold">MITHLESH MISHRA</span>
       </div>
       

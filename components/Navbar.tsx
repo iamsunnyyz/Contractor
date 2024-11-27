@@ -43,7 +43,7 @@ export default function Navbar() {
         {/* Company Logo */}
         <div className="flex items-center space-x-2">
           <Image
-            src="/brand.png"
+            src="/Brand.png"
             alt="Company Logo"
             className="object-contain"
             width={100}
