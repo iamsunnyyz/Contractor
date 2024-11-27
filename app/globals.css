@@ -19,3 +19,20 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes zoomBackground {
+  0% {
+    background-size: 100%;
+  }
+  100% {
+    background-size: 120%; /* Adjust the zoom level as needed */
+  }
+}
+
+.bg-zoom {
+  animation: zoomBackground 10s ease-in-out forwards; /* Adjust duration and easing */
+}
+
+html {
+  scroll-behavior: smooth;
+}
