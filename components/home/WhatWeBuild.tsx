@@ -166,12 +166,12 @@ const WhatWeBuild = () => {
           We have successfully delivered a range of roads & highways projects.
         </h6>
 
-        <div className="flex items-center justify-between relative">
+        <div className="flex items-center justify-between relative gap-1">
           <button
             onClick={handlePrev}
-            className="hidden md:block text-white bg-black bg-opacity-50 px-4 py-2 rounded-full hover:bg-opacity-70 transition z-10"
+            className="text-white bg-black bg-opacity-50 px-3 py-2 rounded-full hover:bg-opacity-70 transition z-10"
           >
-            ←
+            {"<"}
           </button>
 
           <div className="flex gap-8 overflow-hidden">
@@ -197,7 +197,7 @@ const WhatWeBuild = () => {
                     </div>
                   </div>
 
-                  <div className="bg-white p-4">
+                  <div className="bg-white p-2">
                     <h3 className="text-lg font-semibold text-black">
                       {expandedIndex === index
                         ? projects[index].name
@@ -235,9 +235,9 @@ const WhatWeBuild = () => {
 
           <button
             onClick={handleNext}
-            className="hidden md:block text-white bg-black bg-opacity-50 px-4 py-2 rounded-full hover:bg-opacity-70 transition z-10"
+            className="text-white bg-black bg-opacity-50 px-3 py-2 rounded-full hover:bg-opacity-70 transition z-10"
           >
-            →
+            {">"}
           </button>
         </div>
       </div>

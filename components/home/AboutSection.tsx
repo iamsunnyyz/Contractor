@@ -58,7 +58,7 @@ const AboutAndGoalSection: React.FC = () => {
           </h2>
           <hr className="border-t-2 border-white mx-auto w-24 mb-4" />
           <h6 className="text-lg md:text-xl font-medium mb-8 text-green-600">
-            M/S MITHLESH MISHRA
+          MITHLESH MISHRA CONSTRUCTIONS
           </h6>
 
           <div className="text-center max-w-3xl mx-auto mb-8">
@@ -74,12 +74,12 @@ const AboutAndGoalSection: React.FC = () => {
               project. That same philosophy drives our commitment to respect and
               inclusion for our associates.
             </p>
-            <a
+            {/* <a
               href="/about-us"
               className="inline-block px-6 py-3 bg-green-600 text-white font-medium text-lg rounded-md shadow-md hover:bg-green-700 transition duration-300"
             >
               Read More
-            </a>
+            </a> */}
           </div>
         </div>
 

@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Header from "../components/home/Header";
 import AboutUs from "../components/home/AboutSection";
+import ProjectsSection from "../components/home/ProjectsSection";
 import WhatWeBuild from "../components/home/WhatWeBuild";
 import NumberStatsSection from "../components/home/NumberStatsSection";
 import ChairmansMessage from "../components/home/ChairmansMessage";
@@ -16,6 +17,9 @@ export default function Home() {
       </section>
       <section id="about-us">
         <AboutUs />
+      </section>
+      <section id="projects-section">
+        <ProjectsSection />
       </section>
       <section id="what-we-build">
         <WhatWeBuild />

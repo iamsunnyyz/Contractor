@@ -58,6 +58,7 @@ export default function Navbar() {
             { name: "HOME", href: "#home" },
             { name: "ABOUT US", href: "#about-us" },
             { name: "WHAT WE BUILD", href: "#what-we-build" },
+            { name: "SECTOR", href: "#projects-section" },            
             { name: "STATS", href: "#stats" },
             { name: "CONTACT", href: "#contact" },
           ].map((item) => (
