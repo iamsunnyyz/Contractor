@@ -4,11 +4,11 @@ import React, { useEffect, useState, useRef, useMemo } from "react";
 const NumberStatsSection: React.FC = () => {
   const stats = useMemo(
     () => [
-      { value: 1999, label: "Established in" },
-      { value: 12, label: "Projects" },
+      { value: 2000, label: "Established in" },
+      { value: 30, label: "Projects" },
       { value: 1000, label: "Work Employed" },
-      { value: 5, label: "Active Projects" },
-      { value: 15606, label: "Turn Over In Lacs" },
+      { value: 9, label: "Active Projects" },
+      { value: 156, label: "Turn Over In Cr" },
       { value: 25, label: "Years Experience" },
     ],
     []
@@ -85,9 +85,11 @@ const NumberStatsSection: React.FC = () => {
       <div className="container mx-auto px-6">
         {/* Heading Section */}
         <div className="flex flex-col md:flex-row items-center justify-between mb-12">
-          <h3 className="keyfigtitle text-4xl md:text-5xl font-bold text-gray-800 mb-6 md:mb-0">
+          <h3 className="keyfigtitle text-3xl md:text-5xl font-bold text-black mx-auto mb-6 md:mb-0">
             Key Figures
+            <hr className="border-t-4 border-green-600 my-2 mx-auto w-24 mb-4" />
           </h3>
+          
         </div>
 
         {/* Counter Grid */}
