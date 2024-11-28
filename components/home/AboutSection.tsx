@@ -7,7 +7,7 @@ const AboutAndGoalSection: React.FC = () => {
 
   // Images for the dynamic box in the Goal section
   const images = [
-    "/33.jpg",
+    "/48.jpg",
     "/38.jpg",
     "/41.jpg",
     "/64.jpg",
@@ -44,7 +44,7 @@ const AboutAndGoalSection: React.FC = () => {
       {/* Overlay */}
       <div
         className="absolute inset-0 bg-black"
-        style={{ opacity: 0.7 }}
+        style={{ opacity: .7 }}
         aria-hidden="true"
       ></div>
 
@@ -74,12 +74,15 @@ const AboutAndGoalSection: React.FC = () => {
               project. That same philosophy drives our commitment to respect and
               inclusion for our associates.
             </p>
-            {/* <a
-              href="/about-us"
+            <a
+              href="/Company Profile.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block px-6 py-3 bg-green-600 text-white font-medium text-lg rounded-md shadow-md hover:bg-green-700 transition duration-300"
             >
-              Read More
-            </a> */}
+            View Company Profile
+            </a>
+
           </div>
         </div>
 

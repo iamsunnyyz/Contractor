@@ -78,7 +78,7 @@ export default function ProjectsSection() {
       }}
     >
       {/* Overlay for Dim Background */}
-      <div className="absolute inset-0 bg-[#71797E] opacity-80 z-1"></div>
+      <div className="absolute inset-0 bg-[#D3D3D3] opacity-70 z-1"></div>
 
       {/* Content Section */}
       <div className="relative z-10 max-w-6xl mx-auto px-4 text-center">

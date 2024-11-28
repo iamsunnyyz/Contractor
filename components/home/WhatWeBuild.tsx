@@ -156,13 +156,14 @@ const WhatWeBuild = () => {
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
-      <div className="absolute inset-0 bg-white opacity-60"></div>
+      <div className="absolute inset-0 bg-black opacity-70"></div>
+
       <div className="container mx-auto px-6 relative">
-        <h2 className="text-4xl font-bold text-black text-center my-4">
+        <h2 className="text-4xl font-bold text-green-600 text-center my-4">
           Our Projects
         </h2>
-        <hr className="border-t-4 border-green-600 mx-auto w-24 mb-4" />
-        <h6 className="text-lg font-medium mb-8 text-black text-center">
+        <hr className="border-t-4 border-white mx-auto w-24 mb-4" />
+        <h6 className="text-lg font-medium mb-8 text-green-600 text-center">
           We have successfully delivered a range of roads & highways projects.
         </h6>
 
@@ -170,7 +171,7 @@ const WhatWeBuild = () => {
   {/* Left Arrow Button */}
   <button
     onClick={handlePrev}
-    className="text-white bg-black bg-opacity-50 px-3 py-2 rounded-full hover:bg-opacity-70 transition z-10"
+    className="text-white bg-white bg-opacity-50 px-3 py-2 rounded-full hover:bg-opacity-70 transition z-10"
   >
     {"<"}
   </button>
@@ -240,7 +241,7 @@ const WhatWeBuild = () => {
   {/* Right Arrow Button */}
   <button
     onClick={handleNext}
-    className="text-white bg-black bg-opacity-50 px-3 py-2 rounded-full hover:bg-opacity-70 transition z-10"
+    className="text-white bg-white bg-opacity-50 px-3 py-2 rounded-full hover:bg-opacity-70 transition z-10"
   >
     {">"}
   </button>
