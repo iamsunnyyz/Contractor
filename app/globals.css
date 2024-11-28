@@ -47,3 +47,19 @@ html {
   background-color: var(--bg-color);
   color: var(--text-color);
 }
+
+@media (max-width: 768px) {
+  .carousel-wrapper {
+    gap: 2rem; /* Reduced gap for smaller screens */
+  }
+
+  .carousel-card {
+    flex: 0 0 100%; /* Take full width for mobile */
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel-card {
+    flex: 0 0 30%; /* Show 3 cards for larger screens */
+  }
+}

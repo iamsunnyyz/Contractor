@@ -45,7 +45,7 @@ const ChairmansMessage: React.FC = () => {
           As we move forward, our focus remains steadfast: delivering unparalleled quality and innovation, while staying true to our core values. To our clients, partners, and employees, I extend my heartfelt gratitude for being an integral part of this journey.
           </p>
           <p className="text-xl md:text-3xl font-semibold text-[#003366] mt-6 md:mt-8">
-          - <strong>MITHLESH MISHRA</strong>
+          - <strong>MITHLESH MISHRA JI</strong>
           </p>
         </div>
       </div>

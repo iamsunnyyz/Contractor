@@ -9,7 +9,7 @@ const ContactSection: React.FC = () => {
         
       <div className="flex items-center space-x-4">
         <Image src="/Brand.png" alt="Company Logo" className="h-12 w-auto" width={100} height={150}/>
-        <span className="text-white text-3xl font-semibold">MITHLESH MISHRA</span>
+        <span className="text-white text-3xl font-semibold">MITHLESH MISHRA JI</span>
       </div>
       
       </div>
