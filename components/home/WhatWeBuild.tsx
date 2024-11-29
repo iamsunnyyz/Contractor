@@ -148,7 +148,7 @@ const WhatWeBuild = () => {
       id="what-we-build"
       className="relative bg-cover bg-center py-16"
       style={{
-        backgroundImage: `url('/71.JPG')`,
+        backgroundImage: `url('/71.jpg')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
