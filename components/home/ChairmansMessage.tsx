@@ -25,6 +25,7 @@ const ChairmansMessage: React.FC = () => {
         <div className="flex-shrink-0 w-full md:w-1/3">
           <Image
             src="/Owner.jpg"
+            loading="lazy"
             alt="Founder"
             className="rounded-lg shadow-lg w-full object-cover"
             width={350}

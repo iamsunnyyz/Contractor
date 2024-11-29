@@ -189,6 +189,7 @@ const WhatWeBuild = () => {
           <div className="relative group">
             <Image
               src={projects[index].image}
+              loading="lazy"
               alt="Project"
               className="object-cover w-full h-48 group-hover:blur-sm transition duration-500"
               width={500}

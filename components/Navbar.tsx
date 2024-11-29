@@ -60,7 +60,7 @@ export default function Navbar() {
             { name: "SECTORS", href: "#projects-section" },
             { name: "PROJECTS", href: "#what-we-build" },            
             { name: "STATS", href: "#stats" },
-            { name: "CONTACT", href: "#contact" },
+            { name: "CONTACT US", href: "#contact" },
           ].map((item) => (
             <li key={item.name}>
               <Link href={item.href} legacyBehavior>
@@ -105,7 +105,7 @@ export default function Navbar() {
               { name: "SECTORS", href: "#projects-section" },
               { name: "PROJECTS", href: "#what-we-build" },
               { name: "STATS", href: "#stats" },
-              { name: "CONTACT", href: "#contact" },
+              { name: "CONTACT US", href: "#contact" },
             ].map((item) => (
               <li key={item.name}>
                 <Link href={item.href} legacyBehavior>

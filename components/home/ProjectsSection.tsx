@@ -121,6 +121,7 @@ export default function ProjectsSection() {
               >
                 <Image
                   src={project.image}
+                  loading="lazy"
                   alt={project.title}
                   className="object-cover w-full h-2/3"
                   width={300}

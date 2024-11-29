@@ -16,6 +16,9 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "MITHLESH MISHRA CONSTRUCTIONS",
   description: "Designed & Build By iamsunnyyz",
+  icons: {
+    icon: "/logo.png", // Add this to metadata as well
+  },
 };
 
 export default function RootLayout({
@@ -25,10 +28,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        {/* Favicon */}
-        <link rel="icon" href="/logo.png" />
-      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

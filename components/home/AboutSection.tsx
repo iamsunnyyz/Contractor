@@ -93,6 +93,7 @@ const AboutAndGoalSection: React.FC = () => {
             <div className="rounded-lg overflow-hidden shadow-md w-full max-w-md">
               <Image
                 src={images[activeImage]}
+                loading="lazy"
                 alt={`Dynamic Image ${activeImage + 1}`}
                 className="w-full h-auto object-cover rounded-lg"
                 height={300}
